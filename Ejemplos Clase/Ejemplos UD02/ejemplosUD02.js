@@ -23,3 +23,19 @@ function ejemplo33() {
     nuevaedad = edad + incremento;
     console.log(`Hola me llamo ${nombre} y tengo ${edad} años, dentro de ${incremento} años, tendré ${nuevaedad} años`);
 }
+function ejemplo341(){
+    let numero = 5;
+    console.log(numero); //muestra 5 de forma numérica (se ve de color en la consola)
+    console.log(numero.toString()); //muestra 5 igualmente pero en formato string (se ve negro en la consola)
+
+}
+function ejemplo343(){
+    let num1 = "4", num2=6;
+    console.log(typeof num1 + " " + typeof num2); //para ver que son distintos tipos
+    console.log(num1+num2); //nos muestra 46, nos convierte el numero (num2) directamente a string
+}
+function ejemplo344(){
+    let x = "10", y = 9, z ="9";
+    console.log(x<y); //resultado false porque se convierte "y" a string
+    console.log(x<z); //resultado true porque los dos son string
+}
