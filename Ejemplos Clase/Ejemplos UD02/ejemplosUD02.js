@@ -36,6 +36,16 @@ function ejemplo343(){
 }
 function ejemplo344(){
     let x = "10", y = 9, z ="9";
-    console.log(x<y); //resultado false porque se convierte "y" a string
+    console.log(x<y); //resultado false, se produce una conversión
     console.log(x<z); //resultado true porque los dos son string
+}
+function ejemplo346(){
+    let altura; //variable no definida
+    console.log(altura ? true : false); //al no estar definido, false
+    //es como usar if
+    /* if (altura){
+        console.log("true");
+    }else{
+        console.log("false");
+    }*/
 }
