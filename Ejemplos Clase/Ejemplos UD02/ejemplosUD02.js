@@ -100,12 +100,14 @@ function ejemplo351() {
     }*/
 }
 function ejemplo36() {
+    console.log("Ejemplo 3.6");
     let arr = ["1", "2", "3"];
     let copia = Object.assign({}, arr); //clonar normal
     let copia2 = JSON.parse(JSON.stringify(arr)); //clonar con json
     console.log(arr, copia, copia2);
 }
 function ejemplo37() {
+    console.log("Ejemplo 3.7");
     let num = "100"; //cadena
     let num2 = "100.13"; //cadena
     let num3 = 11; //int
@@ -117,6 +119,7 @@ function ejemplo37() {
     console.log(num, n, num2, n2, num3, n3, num2, n4);
 }
 function ejemplo38() {
+    console.log("Ejemplo 3.8");
     const PI=3.1416;
     console.log(PI);
     PI=3; //esto falla
@@ -125,4 +128,13 @@ function ejemplo38() {
     arr[0]=4;
     console.log(arr[0]); //muestra 4
     arr=[]; //esto falla
+}
+function ejemplo39(){
+    "use strict";
+    console.log("Ejemplo 3.9");
+    pi=3.14; //da error, falta let var o const
+    funcionPrueba();
+    function funcionPrueba(){
+        piBIS=3.14 //da error
+    }
 }
