@@ -1,6 +1,14 @@
+/**
+ * @author PacoAranda
+ * @email franciscojavier.aranda.alu@iescampanillas.com
+ * @create date 2021-09-28 11:02:20
+ * @modify date 2021-09-28 11:02:20
+ * @desc [description]
+ */
+
 function ejemplo22() {
     console.log("Ejemplo 2.2");
-    console.log("Esto es un mensaje en la consola");
+    console.log("Esto es un mensaje en la consola.");
     alert("Esto es un mensaje en una ventana emergente");
 }
 function ejemplo23() {
