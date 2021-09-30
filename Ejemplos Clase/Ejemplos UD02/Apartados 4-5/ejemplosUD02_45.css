@@ -1,0 +1,9 @@
+body{
+    margin: 0 auto;
+}
+#contenedor{
+    padding-left: 1em;
+    text-align: left;
+    width: 1000px;
+    height: 1000px;
+}
