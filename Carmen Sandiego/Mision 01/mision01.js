@@ -3,7 +3,7 @@ function cono() {
     let r = prompt("Introduce el radio del cono:");
     let h = prompt("Introduce la altura del cono:");
     let v = (3.14 * (r ^ 2) * h) / 3;
-    console.log(`El volumen del cono es ${v}`);
+    console.log(`El volumen del cono es ${v.toFixed(2)}`);
 }
 function geometria() {
     console.log("Ejercicio geometría (Madrid)");
